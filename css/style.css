@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  margin: 0%;
+}
+
+.list01 li {
+  background: #000;
+  display: block;
+  width: 100%;
+  margin: 0%;
+  flex-shrink: 0;
+}
+
+.list03 li {
+  display: flex;
+  justify-content: center;
+}
+
+.list04 li {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background: #000;
+  color: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+.copyright {
+  font-size: 14px;
+}
