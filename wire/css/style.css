@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  margin: 0%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  height: 130px;
+}
+.list01 li {
+  display: block;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.page {
+  text-decoration: none;
+  color: #fff;
+  font-size: 32px;
+  line-height: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.btn {
+  display: flex;
+  padding: 9px 50px;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5e5;
+  width: 160px;
+  height: 60px;
+  margin: auto;
+  text-decoration: none;
+  color:#000;
+  margin-top: 40px;
+  font-size: 35px;
+}
+
+.price {
+  font-weight: bold;
+}
+.list03 li ,
+.list04 li {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  padding: 50px 0;
+}
+
+.merch {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  font-size: 30px;
+}
+
+footer {
+  background: #000;
+  color: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+.copyright {
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
